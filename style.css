@@ -1,0 +1,25 @@
+body {
+    background: rgb(38, 0, 99);
+    background: linear-gradient(90deg, rgba(38, 0, 99, 1) 15%, rgba(164, 6, 242, 1) 35%, rgba(250, 62, 255, 1) 100%);
+    color: #ffffff;
+}
+
+#ciri {
+    border-radius: 40%;
+}
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    text-align: center
+}
+.dog {
+    float: left;
+    color: #ffadef;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 24px
+}
