@@ -2,6 +2,7 @@ body {
     background: rgb(38, 0, 99);
     background: linear-gradient(90deg, rgba(38, 0, 99, 1) 15%, rgba(164, 6, 242, 1) 35%, rgba(250, 62, 255, 1) 100%);
     color: #ffffff;
+    text-align: center;
 }
 
 #ciri {
@@ -12,7 +13,11 @@ body {
     position: fixed;
     top: 0px;
     z-index: 1000;
-    text-align: center
+    text-align: center;
+background: rgb(149,0,235);
+background: linear-gradient(90deg, rgba(149,0,235,1) 15%, rgba(101,63,252,1) 35%, rgba(116,193,255,1) 100%);
+width: 100%;
+margin-top: 0px;
 }
 .dog {
     float: left;
@@ -22,4 +27,8 @@ body {
     padding-right: 10px;
     padding-top: 5px;
     font-size: 24px
+}
+.dog:hover {
+    font-size: 25px;
+    text-decoration: underline;
 }
